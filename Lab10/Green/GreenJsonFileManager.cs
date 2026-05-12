@@ -1,6 +1,6 @@
 using System.IO;
 using System.Reflection;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace Lab10.Green
 {
@@ -48,7 +48,7 @@ namespace Lab10.Green
                 Pattern = GetPatternValue(obj)
             };
 
-            var json = JsonSerializer.Serialize(data);
+            var json = JsonConvert.SerializeObject(data);
             File.WriteAllText(FullPath, json);
         }
 
@@ -61,7 +61,7 @@ namespace Lab10.Green
             if (string.IsNullOrWhiteSpace(json))
                 return null;
 
-            var data = JsonSerializer.Deserialize<JsonData>(json);
+            var data = JsonConvert.DeserializeObject<JsonData>(json);
             var instance = CreateInstance(data);
 
             if (instance is T result)

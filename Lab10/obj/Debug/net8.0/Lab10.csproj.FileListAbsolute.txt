@@ -20,3 +20,4 @@ C:\Users\User\Source\Repos\Lab-10\Lab10\obj\Debug\net8.0\refint\Lab10.dll
 C:\Users\User\Source\Repos\Lab-10\Lab10\obj\Debug\net8.0\Lab10.pdb
 C:\Users\User\Source\Repos\Lab-10\Lab10\obj\Debug\net8.0\Lab10.genruntimeconfig.cache
 C:\Users\User\Source\Repos\Lab-10\Lab10\obj\Debug\net8.0\ref\Lab10.dll
+C:\Users\User\source\repos\Lab-10\Lab10\bin\Debug\net8.0\Newtonsoft.Json.dll
